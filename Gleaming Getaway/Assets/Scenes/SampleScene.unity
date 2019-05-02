@@ -935,6 +935,7 @@ GameObject:
   - component: {fileID: 752228695}
   - component: {fileID: 752228694}
   - component: {fileID: 752228693}
+  - component: {fileID: 752228696}
   m_Layer: 0
   m_Name: misty_sprite
   m_TagString: Untagged
@@ -1069,6 +1070,24 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &752228696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 752228690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc51b070fa9284f41beaf009c194f0bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabToSpawn: {fileID: 196000, guid: c9ddfe9d025db4b058cfab0c1466019c, type: 3}
+  keyToPress: 32
+  creationRate: 0.5
+  shootSpeed: 5
+  shootDirection: {x: 6, y: 0}
+  relativeToRotation: 1
 --- !u!1 &811247130
 GameObject:
   m_ObjectHideFlags: 0
