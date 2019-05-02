@@ -185,7 +185,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rigidbody2D: {fileID: 0}
-  speed: 5
+  speed: 3
   directionChangeInterval: 0.5
   keepNearStartingPoint: 1
   orientToDirection: 0
@@ -336,7 +336,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.049483802, g: 0.049483802, b: 0.0754717, a: 0}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -455,7 +455,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rigidbody2D: {fileID: 0}
-  speed: 5
+  speed: 3
   directionChangeInterval: 0.5
   keepNearStartingPoint: 1
   orientToDirection: 0
@@ -598,7 +598,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &711149897
 GameObject:
@@ -696,8 +696,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rigidbody2D: {fileID: 0}
-  speed: 1
-  directionChangeInterval: 3
+  speed: 4
+  directionChangeInterval: 0.5
   keepNearStartingPoint: 1
   orientToDirection: 0
   lookAxis: 0
@@ -834,7 +834,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rigidbody2D: {fileID: 0}
-  speed: 5
+  speed: 3
   directionChangeInterval: 0.5
   keepNearStartingPoint: 1
   orientToDirection: 0
@@ -1019,7 +1019,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rigidbody2D: {fileID: 0}
   typeOfControl: 0
-  speed: 5
+  speed: 3
   movementType: 2
   orientToDirection: 0
   lookAxis: 0
@@ -1143,7 +1143,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1043571421
 GameObject:
@@ -1218,7 +1218,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rigidbody2D: {fileID: 0}
-  speed: 5
+  speed: 3
   directionChangeInterval: 0.5
   keepNearStartingPoint: 1
   orientToDirection: 0
@@ -1379,7 +1379,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rigidbody2D: {fileID: 0}
-  speed: 5
+  speed: 3
   directionChangeInterval: 0.5
   keepNearStartingPoint: 1
   orientToDirection: 0
@@ -1540,7 +1540,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rigidbody2D: {fileID: 0}
-  speed: 5
+  speed: 3
   directionChangeInterval: 0.5
   keepNearStartingPoint: 1
   orientToDirection: 0
@@ -1701,7 +1701,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rigidbody2D: {fileID: 0}
-  speed: 5
+  speed: 3
   directionChangeInterval: 0.5
   keepNearStartingPoint: 1
   orientToDirection: 0
@@ -1862,7 +1862,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rigidbody2D: {fileID: 0}
-  speed: 5
+  speed: 3
   directionChangeInterval: 0.5
   keepNearStartingPoint: 1
   orientToDirection: 0
@@ -2080,7 +2080,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rigidbody2D: {fileID: 0}
-  speed: 5
+  speed: 3
   directionChangeInterval: 0.5
   keepNearStartingPoint: 1
   orientToDirection: 0
@@ -2324,7 +2324,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rigidbody2D: {fileID: 0}
-  speed: 5
+  speed: 3
   directionChangeInterval: 0.5
   keepNearStartingPoint: 1
   orientToDirection: 0
