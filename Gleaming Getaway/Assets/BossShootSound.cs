@@ -1,13 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-
-public class playbuttonscript : MonoBehaviour
+public class BossShootSound : MonoBehaviour
 {
     public AudioSource mySource;
-
 
     // Start is called before the first frame update
     void Start()
@@ -21,14 +18,7 @@ public class playbuttonscript : MonoBehaviour
         
     }
 
-	private void OnMouseDown()
-	{
+    public void playShootSound(){
         mySource.Play();
-        StartCoroutine(PlayGame());
-	}
-
-    IEnumerator PlayGame(){
-        yield return new WaitForSeconds(1);
-        SceneManager.LoadScene(2);
     }
 }
