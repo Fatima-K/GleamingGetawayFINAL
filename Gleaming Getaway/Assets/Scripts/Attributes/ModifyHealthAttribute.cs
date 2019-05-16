@@ -22,16 +22,19 @@ public class ModifyHealthAttribute : MonoBehaviour
 
 	private void OnTriggerEnter2D(Collider2D colliderData)
 	{
-		HealthSystemAttribute healthScript = colliderData.gameObject.GetComponent<HealthSystemAttribute>();
-		if(healthScript != null)
-		{
-			// subtract health from the player
-			healthScript.ModifyHealth(healthChange);
+        if (gameObject.tag == "Enemy" && colliderData.tag != "EnemyBullet")
+        {
+            HealthSystemAttribute healthScript = colliderData.gameObject.GetComponent<HealthSystemAttribute>();
+            if (healthScript != null)
+            {
+                // subtract health from the player
+                healthScript.ModifyHealth(healthChange);
 
-			if(destroyWhenActivated)
-			{
-				Destroy(this.gameObject);
-			}
-		}
+                if (destroyWhenActivated)
+                {
+                    Destroy(this.gameObject);
+                }
+            }
+        }
 	}
 }
